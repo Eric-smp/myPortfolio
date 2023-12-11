@@ -8,22 +8,20 @@ import { ThemeProvider } from "styled-components";
 import { Themes } from "@/styles/themeStyles";
 import { GlobalStyles } from "@/styles/globals";
 import Head from "next/head";
-
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
         <title>Portifolio</title>
+        <meta />
       </Head>
       <I18nextProvider i18n={i18next}>
-        <ConfigProvider locale={ptBR}>
-          <ThemeProvider theme={Themes}>
-            <GlobalProvider>
-              <GlobalStyles />
-              <Component {...pageProps} />
-            </GlobalProvider>
-          </ThemeProvider>
-        </ConfigProvider>
+        <ThemeProvider theme={Themes}>
+          <GlobalProvider>
+            <GlobalStyles />
+            <Component {...pageProps} />
+          </GlobalProvider>
+        </ThemeProvider>
       </I18nextProvider>
     </>
   );

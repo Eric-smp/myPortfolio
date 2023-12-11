@@ -15,8 +15,9 @@ export const GlobalStyles = createGlobalStyle`
 }
 
 h1,h2,h3,h4,h5,h6,p,span{
-  /* font-family: 'Montserrat', sans-serif; */
-
+  /* font-size: 5rem; */
+  /* font-family: 'Roboto', sans-serif; */
+  font-family: 'Montserrat', sans-serif;
 }
 
 `
