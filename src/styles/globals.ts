@@ -1,5 +1,6 @@
 import { createGlobalStyle } from "styled-components";
 
+
 export const GlobalStyles = createGlobalStyle`
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
@@ -21,6 +22,7 @@ h1,h2,h3,h4,h5,h6,p,span{
   /* font-family: 'Roboto', sans-serif; */
   font-family: 'Montserrat', sans-serif;
 }
+
 
 `
 

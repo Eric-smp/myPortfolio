@@ -21,6 +21,7 @@ export const Container = styled.div`
     h1 {
       color: #e4f3d8;
       font-family: "Roboto Mono", monospace;
+      cursor: pointer;
     }
   }
   .iconOpenMenuMobile {

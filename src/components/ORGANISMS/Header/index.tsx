@@ -3,9 +3,11 @@ import IconPortfolio from "@/assets/svg/iconProjetct.svg";
 import IconMobileMenu from "@/assets/svg/iconMenuMobile.svg";
 import * as Styles from "./styles";
 import { useGlobal } from "@/hooks/context/global";
+import { useRouter } from "next/router";
 
 export function Header() {
   const { setVisibleMenuMobile } = useGlobal();
+  const router = useRouter();
   return (
     <Styles.Container>
       <div className="iconOpenMenuMobile">
@@ -18,7 +20,7 @@ export function Header() {
         <NavBarHeader />
       </div>
       <div className="titleHeader">
-        <h1>Eric Sampaio</h1>
+        <h1 onClick={() => router.push("/")}>Eric Sampaio</h1>
       </div>
     </Styles.Container>
   );

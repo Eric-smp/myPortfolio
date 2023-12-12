@@ -1,16 +1,15 @@
-import Image from "next/image";
-import { Header, HomeBody, MenuLeft } from "@/components";
-import ImageFundo from "@/public/image/wall.jpg";
-
+import { Header, BodyDevelopers, MenuLeft } from "@/components";
 import * as Styles from "./styles";
+import ImageFundo from "@/public/image/wall.jpg";
+import Image from "next/image";
 
-export function FirstPage() {
+export function PageDevelopers() {
   return (
     <Styles.Wrapper>
       <div className="conteudo">
         <MenuLeft />
         <Header />
-        <HomeBody />
+        <BodyDevelopers />
       </div>
       <Image
         alt="Image Fundo"
