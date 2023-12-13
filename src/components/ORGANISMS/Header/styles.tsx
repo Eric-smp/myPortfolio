@@ -5,7 +5,7 @@ export const Container = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;600&display=swap");
 
-  height: 100%;
+  height: auto;
   width: 100vw;
   display: flex;
   flex-direction: row;

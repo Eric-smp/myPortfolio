@@ -1,5 +1,6 @@
 //ATOMS
 export * from './ATOMS/Container'
+export * from './ATOMS/CardProject'
 //MOLECULES
 export * from './MOLECULES/NavBarHeader'
 export * from './MOLECULES/MenuLeft'
