@@ -10,15 +10,14 @@ export const Content = styled.div<TCard>`
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  background-color: red;
   .Card {
     height: 100%;
     width: 30rem;
     padding: 1rem;
     display: flex;
     align-items: center;
-    border: 2px solid #fe1cac;
-    border-radius: 25px 0px 25px 0px;
+    border: 0.125rem solid #fe1cac;
+    border-radius: 1.5625rem 0rem 1.5625rem 0rem;
 
     .iconCard {
       display: flex;
@@ -30,18 +29,10 @@ export const Content = styled.div<TCard>`
         height: auto;
       }
     }
-    /* .diviser {
-            height: 100%;
-            margin: 0rem 1rem;
-            background-color: blue;
-            span {
-                height: 100%;
-                border-right: 2px solid #ffff;
-            }
-        } */
+
     .titleAndDescricao {
       margin-left: 1rem;
-      border-left: 2px solid #820081;
+      border-left: 0.125rem solid #820081;
       padding: 0rem 1rem;
       display: flex;
       flex-direction: column;
@@ -60,6 +51,7 @@ export const Content = styled.div<TCard>`
         color: #e80560;
         font-family: "Kalnia", serif;
         font-weight: 700;
+        cursor: ${({ urlBlock }) => (urlBlock ? "not-allowed" : "pointer")};
       }
     }
 
@@ -77,7 +69,6 @@ export const Content = styled.div<TCard>`
   @media only screen and (max-width: 625px) {
     .Card {
       width: 100%;
-      background-color: red;
     }
   }
 `;

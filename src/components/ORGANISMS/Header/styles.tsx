@@ -16,7 +16,6 @@ export const Container = styled.div`
   backdrop-filter: blur(1rem);
   border-bottom: 0.0625rem solid #e4f3d8;
   border-radius: 0.125rem;
-
   .titleHeader {
     h1 {
       color: #e4f3d8;

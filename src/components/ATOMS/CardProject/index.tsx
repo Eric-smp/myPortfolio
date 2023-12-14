@@ -1,13 +1,20 @@
 import { TCard } from "@/types";
 import * as Styles from "./styles";
 
-export function CardProject({ descricao, icon, title, urlProject }: TCard) {
+export function CardProject({
+  descricao,
+  icon,
+  title,
+  urlProject,
+  urlBlock,
+}: TCard) {
   return (
     <Styles.Content
       descricao={descricao}
       title={title}
       urlProject={urlProject}
       icon={icon}
+      urlBlock={urlBlock}
     >
       <div className="Card">
         <div className="iconCard">
