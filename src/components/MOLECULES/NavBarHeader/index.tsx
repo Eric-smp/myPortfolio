@@ -5,7 +5,7 @@ export function NavBarHeader() {
   const router = useRouter();
   return (
     <Styles.TextNav>
-      <h2 onClick={() => router.push("/")}>Home</h2>
+      <h2 onClick={() => router.push("/init")}>Home</h2>
       <h2 onClick={() => router.push("/aboutMy")}>Sobre mim</h2>
       <h2 onClick={() => router.push("/developers")}>Desenvolvimentos</h2>
       <h2 onClick={() => router.push("/contacts")}>Contatos</h2>

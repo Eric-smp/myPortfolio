@@ -16,7 +16,7 @@ export const Content = styled.div<TCard>`
     padding: 1rem;
     display: flex;
     align-items: center;
-    border: 0.125rem solid #fe1cac;
+    border: 0.125rem solid #7dffaf;
     border-radius: 1.5625rem 0rem 1.5625rem 0rem;
 
     .iconCard {
@@ -32,7 +32,7 @@ export const Content = styled.div<TCard>`
 
     .titleAndDescricao {
       margin-left: 1rem;
-      border-left: 0.125rem solid #820081;
+      border-left: 0.125rem solid #8a42db;
       padding: 0rem 1rem;
       display: flex;
       flex-direction: column;
@@ -48,7 +48,7 @@ export const Content = styled.div<TCard>`
       a {
         font-size: 1.5rem;
         text-decoration: none;
-        color: #e80560;
+        color: #8a42db;
         font-family: "Kalnia", serif;
         font-weight: 700;
         cursor: ${({ urlBlock }) => (urlBlock ? "not-allowed" : "pointer")};

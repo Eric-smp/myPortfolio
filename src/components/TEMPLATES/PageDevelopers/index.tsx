@@ -6,22 +6,9 @@ import Image from "next/image";
 export function PageDevelopers() {
   return (
     <Styles.Wrapper>
-      <div className="conteudo">
-        <MenuLeft />
-        <Header />
-        <BodyDevelopers />
-      </div>
-      <Image
-        alt="Image Fundo"
-        src={ImageFundo}
-        // placeholder="blur"
-        quality={100}
-        fill
-        sizes="100%"
-        style={{
-          objectFit: "cover",
-        }}
-      />
+      <MenuLeft />
+      <Header />
+      <BodyDevelopers />
     </Styles.Wrapper>
   );
 }

@@ -6,22 +6,9 @@ import Image from "next/image";
 export function PageContacts() {
   return (
     <Styles.Wrapper>
-      <div className="conteudo">
-        <MenuLeft />
-        <Header />
-        <BodyContacts />
-      </div>
-      <Image
-        alt="Image Fundo"
-        src={ImageFundo}
-        // placeholder="blur"
-        quality={100}
-        fill
-        sizes="100%"
-        style={{
-          objectFit: "cover",
-        }}
-      />
+      <MenuLeft />
+      <Header />
+      <BodyContacts />
     </Styles.Wrapper>
   );
 }

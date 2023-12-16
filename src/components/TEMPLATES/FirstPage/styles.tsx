@@ -3,8 +3,6 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 100%;
   height: 100%;
-  .conteudo {
-    position: absolute;
-    z-index: 10;
-  }
+  position: absolute;
+  z-index: 10;
 `;

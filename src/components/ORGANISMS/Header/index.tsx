@@ -4,10 +4,12 @@ import IconMobileMenu from "@/assets/svg/iconMenuMobile.svg";
 import * as Styles from "./styles";
 import { useGlobal } from "@/hooks/context/global";
 import { useRouter } from "next/router";
+import { useEffect } from "react";
 
 export function Header() {
-  const { setVisibleMenuMobile } = useGlobal();
+  const { visibleMenuMobile, setVisibleMenuMobile } = useGlobal();
   const router = useRouter();
+
   return (
     <Styles.Container>
       <div className="iconOpenMenuMobile">

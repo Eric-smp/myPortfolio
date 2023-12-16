@@ -6,7 +6,7 @@ export const Wrapper = styled.div<TMenuLeft>`
   position: absolute;
   z-index: 10;
   display: ${({ visibleMenuLeft }) => (visibleMenuLeft ? "flex" : "none")};
-  background: #ff00aa3d;
+  background: #171023;
   backdrop-filter: blur(1rem);
   flex-direction: column;
 
@@ -14,12 +14,14 @@ export const Wrapper = styled.div<TMenuLeft>`
     padding: 5rem 1rem;
     width: 75%;
     height: 100%;
-    background-color: #832883;
+    background-color: #2c243b;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
     .header {
       display: flex;
       align-items: center;
       justify-content: space-between;
-      margin-bottom: 2rem;
       h2 {
         font-size: 1.5rem;
         color: #e4f3d8;
@@ -40,6 +42,15 @@ export const Wrapper = styled.div<TMenuLeft>`
         h3 {
           color: #e4f3d8;
         }
+      }
+    }
+
+    .footer {
+      display: flex;
+      flex-direction: row;
+      gap: 2rem;
+      svg {
+        cursor: pointer;
       }
     }
   }

@@ -8,6 +8,6 @@ export const TextNav = styled.div`
 
   h2 {
     font-size: 1.35rem;
-    color: #e4f3d8;
+    color: #f5f6f6;
   }
 `;

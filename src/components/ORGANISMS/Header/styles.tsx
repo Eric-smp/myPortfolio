@@ -6,7 +6,7 @@ export const Container = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;600&display=swap");
 
   height: auto;
-  width: 100vw;
+  width: 100%;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -14,12 +14,18 @@ export const Container = styled.div`
   padding: 1rem 2rem;
   background: transparent;
   backdrop-filter: blur(1rem);
-  border-bottom: 0.0625rem solid #e4f3d8;
-  border-radius: 0.125rem;
+  box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.25);
   .titleHeader {
     h1 {
-      color: #e4f3d8;
-      font-family: "Roboto Mono", monospace;
+      font-family: "Kalam", cursive;
+      background: var(
+        --brand-gradient-horizontal,
+        linear-gradient(90deg, #9955e8 0%, #7bffaf 100%)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+
       cursor: pointer;
     }
   }

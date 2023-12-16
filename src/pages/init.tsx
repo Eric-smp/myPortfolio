@@ -1,7 +1,6 @@
-import { Inter } from "next/font/google";
 import { Container, PageInformation } from "@/components";
 
-export default function Home() {
+export default function HomePage() {
   return (
     <Container>
       <PageInformation />

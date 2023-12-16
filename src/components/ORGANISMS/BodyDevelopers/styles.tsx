@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Wrapper = styled.div`
   width: 100%;
-  height: 100%;
+  height: auto;
 
   .projetct {
     width: 100%;
@@ -29,7 +29,7 @@ export const Wrapper = styled.div`
       border-radius: 20px;
     }
     ::-webkit-scrollbar-thumb {
-      background-color: #fe1cac;
+      background-color: #7dffaf;
       border-radius: 0.625rem;
     }
   }

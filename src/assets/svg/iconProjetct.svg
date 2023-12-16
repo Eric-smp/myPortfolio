@@ -25,7 +25,7 @@
             <style>
                 .cls-1 {
                     fill: none;
-                    stroke: #fb44e2;
+                    stroke: #7DFFAF;
                     stroke-linecap: round;
                     stroke-linejoin: round;
                 }
