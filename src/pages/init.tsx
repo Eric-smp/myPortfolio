@@ -1,9 +1,5 @@
-import { Container, FirstPage } from "@/components";
+import { FirstPage } from "@/components";
 
 export default function HomePage() {
-  return (
-    <Container>
-      <FirstPage />
-    </Container>
-  );
+  return <FirstPage />;
 }

@@ -1,5 +1,4 @@
 //ATOMS
-export * from './ATOMS/Container'
 export * from './ATOMS/CardProject'
 export * from './ATOMS/PerfilUser'
 export * from './ATOMS/Button'
