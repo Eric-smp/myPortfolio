@@ -12,6 +12,7 @@ export const TextNav = styled.div`
     color: #f5f6f6;
   }
   :hover {
+    cursor: pointer;
     opacity: 5;
   }
 `;
