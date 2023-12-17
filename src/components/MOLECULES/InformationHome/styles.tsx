@@ -18,7 +18,7 @@ export const Content = styled.div`
     align-items: flex-start;
     gap: 2rem;
 
-    header {
+    .header {
       h1 {
         font-family: "Kalam", cursive;
         background: var(
@@ -30,7 +30,7 @@ export const Content = styled.div`
         -webkit-text-fill-color: transparent;
       }
     }
-    body {
+    .body {
       width: 100%;
       display: flex;
       p {
@@ -38,7 +38,7 @@ export const Content = styled.div`
       }
     }
 
-    footer {
+    .footer {
       width: 100%;
       button {
         width: 100%;

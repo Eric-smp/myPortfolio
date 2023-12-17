@@ -7,17 +7,17 @@ export function PerfilUser() {
     <Styles.Content>
       <div className="photoPerfil">
         <Image
-          alt="Eric Sampaio"
+          alt="Image Fundo"
           src={ImagePerfil}
           // placeholder="blur"
           quality={100}
-          width={130}
           // fill
-          // sizes="100%"
-          className="object-cover rounded-full"
-          // style={{
-          //   objectFit: "cover",
-          // }}
+          sizes="150px"
+          style={{
+            objectFit: "cover",
+            height: "100%",
+            width: "100%",
+          }}
         />
       </div>
       <p>Eric Sampaio</p>

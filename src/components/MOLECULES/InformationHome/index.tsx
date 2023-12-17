@@ -9,19 +9,19 @@ export function InformationHome() {
   return (
     <Styles.Content>
       <div className="textContent">
-        <header>
+        <div className="header">
           <h1>Olá, sou Eric Sampaio</h1>
-        </header>
-        <body>
+        </div>
+        <div className="body">
           <p>
             Desenvolvi esse portfolio com intuito de me apresentar, mostrar as
             minhas habilidades no mundo da programação e também apresentar os
             projetos que desenvolvi sozinho e em grupo.
           </p>
-        </body>
-        <footer>
+        </div>
+        <div className="footer">
           <Button label={"Sobre mim"} onClick={() => router.push("/aboutMy")} />
-        </footer>
+        </div>
       </div>
       <div className="imgContent">
         <Image
