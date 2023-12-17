@@ -1,4 +1,4 @@
-import { BodyDevelopers, InformationHome } from "@/components";
+import { InformationHome } from "@/components";
 import * as Styles from "./styles";
 
 export function HomeBody() {

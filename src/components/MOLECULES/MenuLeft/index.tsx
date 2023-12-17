@@ -4,10 +4,8 @@ import IconArrowRigth from "@/assets/svg/arrowRigth.svg";
 import IconGitHub from "@/assets/svg/logo-github 1.svg";
 import IconLinkedin from "@/assets/svg/logo-linkedin 1.svg";
 import IconInstagram from "@/assets/svg/logo-instagram 1.svg";
-import Link from "next/link";
 import * as Styles from "./styles";
 import { useRouter } from "next/router";
-import { useState } from "react";
 
 export function MenuLeft() {
   const {

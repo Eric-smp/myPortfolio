@@ -1,4 +1,4 @@
-import { Container, PageDevelopers } from "@/components";
+import { PageDevelopers } from "@/components";
 
 export default function developers() {
   return <PageDevelopers />;
