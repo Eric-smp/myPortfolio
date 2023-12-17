@@ -11,12 +11,13 @@ export function PerfilUser() {
           src={ImagePerfil}
           // placeholder="blur"
           quality={100}
-          width={150}
+          width={130}
           // fill
-          sizes="100%"
-          style={{
-            objectFit: "cover",
-          }}
+          // sizes="100%"
+          className="object-cover rounded-full"
+          // style={{
+          //   objectFit: "cover",
+          // }}
         />
       </div>
       <p>Eric Sampaio</p>
