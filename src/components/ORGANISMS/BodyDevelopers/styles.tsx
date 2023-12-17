@@ -22,10 +22,11 @@ export const Wrapper = styled.div`
       backdrop-filter: blur(1rem);
       overflow-y: scroll;
       border-radius: 0.3125rem;
+      border: 1px solid #9955e8;
     }
     ::-webkit-scrollbar {
       width: 0.3125rem;
-      background-color: #820081;
+      background-color: #9955e8;
       border-radius: 20px;
     }
     ::-webkit-scrollbar-thumb {
@@ -36,11 +37,10 @@ export const Wrapper = styled.div`
   @media only screen and (max-width: 1024px) {
     width: 100vw;
     height: 100%;
-    padding: 0rem 1rem;
 
     .projetct {
       width: 100%;
-      height: 28rem;
+      height: 35rem;
       display: flex;
       align-items: center;
       justify-content: center;
@@ -59,11 +59,11 @@ export const Wrapper = styled.div`
       }
       ::-webkit-scrollbar {
         width: 0.3125rem;
-        background-color: #820081;
+        background-color: #9955e8;
         border-radius: 20px;
       }
       ::-webkit-scrollbar-thumb {
-        background-color: #fe1cac;
+        background-color: #7dffaf;
         border-radius: 0.625rem;
       }
     }

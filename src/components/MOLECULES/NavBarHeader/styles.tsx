@@ -7,7 +7,11 @@ export const TextNav = styled.div`
   gap: 2rem;
 
   h2 {
+    opacity: 0.9;
     font-size: 1.35rem;
     color: #f5f6f6;
+  }
+  :hover {
+    opacity: 5;
   }
 `;

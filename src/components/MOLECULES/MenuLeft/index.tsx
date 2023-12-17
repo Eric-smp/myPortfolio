@@ -7,26 +7,35 @@ import IconInstagram from "@/assets/svg/logo-instagram 1.svg";
 import Link from "next/link";
 import * as Styles from "./styles";
 import { useRouter } from "next/router";
+import { useState } from "react";
 
 export function MenuLeft() {
-  const { visibleMenuMobile, setVisibleMenuMobile } = useGlobal();
+  const {
+    visibleMenuLeft,
+    setVisibleMenuLeft,
+    isSideBarVisible,
+    setIsSideBarVisible,
+  } = useGlobal();
   const router = useRouter();
-  const handleGitHubClick = () => {
-    // Redirecionar para o YouTube quando o ícone do GitHub for clicado
-  };
+
   return (
-    <Styles.Wrapper visibleMenuLeft={visibleMenuMobile}>
+    <Styles.Wrapper visibleMenuLeft={visibleMenuLeft} active={isSideBarVisible}>
       <div className="contentMenuLeft">
         <div className="header">
           <h2>Eric Sampaio</h2>
-          <IconClose onClick={() => setVisibleMenuMobile(false)} />
+          <IconClose
+            onClick={() => {
+              setVisibleMenuLeft(false);
+              setIsSideBarVisible(!visibleMenuLeft);
+            }}
+          />
         </div>
         <div className="bodyMenuLeft">
           <div
             className="optionText"
             onClick={() => {
               router.push("/");
-              setVisibleMenuMobile(false);
+              setVisibleMenuLeft(false);
             }}
           >
             <h3>Inicio</h3>
@@ -35,8 +44,18 @@ export function MenuLeft() {
           <div
             className="optionText"
             onClick={() => {
+              router.push("/init");
+              setVisibleMenuLeft(false);
+            }}
+          >
+            <h3>Apresentação</h3>
+            <IconArrowRigth />
+          </div>
+          <div
+            className="optionText"
+            onClick={() => {
               router.push("/aboutMy");
-              setVisibleMenuMobile(false);
+              setVisibleMenuLeft(false);
             }}
           >
             <h3>Sobre mim</h3>
@@ -46,7 +65,7 @@ export function MenuLeft() {
             className="optionText"
             onClick={() => {
               router.push("/developers ");
-              setVisibleMenuMobile(false);
+              setVisibleMenuLeft(false);
             }}
           >
             <h3>Desenvolvimentos</h3>
@@ -56,7 +75,7 @@ export function MenuLeft() {
             className="optionText"
             onClick={() => {
               router.push("/contacts");
-              setVisibleMenuMobile(false);
+              setVisibleMenuLeft(false);
             }}
           >
             <h3>Contatos</h3>

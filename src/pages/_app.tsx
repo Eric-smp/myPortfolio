@@ -9,7 +9,6 @@ import { Themes } from "@/styles/themeStyles";
 import { GlobalStyles } from "@/styles/globals";
 import Head from "next/head";
 import Image from "next/image";
-import ImageFundo from "@/assets/png/bg-desktop.png";
 export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
@@ -25,17 +24,6 @@ export default function App({ Component, pageProps }: AppProps) {
           </GlobalProvider>
         </ThemeProvider>
       </I18nextProvider>
-      <Image
-        alt="Image Fundo"
-        src={ImageFundo}
-        // placeholder="blur"
-        quality={100}
-        fill
-        sizes="100%"
-        style={{
-          objectFit: "cover",
-        }}
-      />
     </>
   );
 }

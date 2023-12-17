@@ -1,9 +1,13 @@
 //ATOMS
 export * from './ATOMS/Container'
 export * from './ATOMS/CardProject'
+export * from './ATOMS/PerfilUser'
+export * from './ATOMS/Button'
 //MOLECULES
 export * from './MOLECULES/NavBarHeader'
 export * from './MOLECULES/MenuLeft'
+export * from './MOLECULES/SectionOption'
+export * from './MOLECULES/InformationHome'
 //ORGANISMS
 export * from './ORGANISMS/Header'
 export * from './ORGANISMS/HomeBody'

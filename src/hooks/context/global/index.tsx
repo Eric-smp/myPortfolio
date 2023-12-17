@@ -2,23 +2,28 @@ import { useState, useEffect, useMemo, createContext, useContext } from "react";
 import { GlobalProps, ChildrenType } from "@/types";
 
 export const initialState: GlobalProps = {
-  visibleMenuMobile: false,
-  setVisibleMenuMobile: () => {},
+  visibleMenuLeft: false,
+  setVisibleMenuLeft: () => {},
+  isSideBarVisible: false,
+  setIsSideBarVisible: () => {},
 };
 
 const GlobalContext = createContext<GlobalProps>(initialState);
 
 function GlobalProvider({ children }: ChildrenType) {
-  const [visibleMenuMobile, setVisibleMenuMobile] = useState<boolean>(false);
+  const [visibleMenuLeft, setVisibleMenuLeft] = useState<boolean>(false);
+  const [isSideBarVisible, setIsSideBarVisible] = useState(false);
 
-  useEffect(() => {}, [visibleMenuMobile, setVisibleMenuMobile]);
+  useEffect(() => {}, [visibleMenuLeft, setVisibleMenuLeft]);
 
   const value = useMemo(
     () => ({
-      visibleMenuMobile,
-      setVisibleMenuMobile,
+      visibleMenuLeft,
+      isSideBarVisible,
+      setIsSideBarVisible,
+      setVisibleMenuLeft,
     }),
-    [visibleMenuMobile, setVisibleMenuMobile]
+    [visibleMenuLeft, isSideBarVisible]
   );
   return (
     <GlobalContext.Provider value={value}>{children}</GlobalContext.Provider>

@@ -7,13 +7,15 @@ import { useRouter } from "next/router";
 import { useEffect } from "react";
 
 export function Header() {
-  const { visibleMenuMobile, setVisibleMenuMobile } = useGlobal();
+  const { visibleMenuLeft, setVisibleMenuLeft } = useGlobal();
   const router = useRouter();
+
+  console.log("amdpoas", setVisibleMenuLeft);
 
   return (
     <Styles.Container>
       <div className="iconOpenMenuMobile">
-        <IconMobileMenu onClick={() => setVisibleMenuMobile(true)} />
+        <IconMobileMenu onClick={() => console.log(setVisibleMenuLeft(true))} />
       </div>
       <div className="iconPortifolio">
         <IconPortfolio />
