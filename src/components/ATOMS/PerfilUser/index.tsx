@@ -12,11 +12,11 @@ export function PerfilUser() {
           // placeholder="blur"
           quality={100}
           // fill
-          sizes="150px"
+          sizes="100px"
           style={{
             objectFit: "cover",
-            height: "100%",
-            width: "100%",
+            height: "150px",
+            width: "150px",
           }}
         />
       </div>

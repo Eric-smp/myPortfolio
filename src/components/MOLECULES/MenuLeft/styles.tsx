@@ -107,10 +107,10 @@ export const Wrapper = styled.div<TMenuLeft>`
         animation: ${(props) =>
           props.active
             ? css`
-                ${AnimatedMenuOut} 1.5s
+                ${AnimatedMenuOut} 1s
               `
             : css`
-                ${AnimatedMenuIn} 1.5s
+                ${AnimatedMenuIn} 1s
               `};
 
         h3 {
@@ -127,10 +127,10 @@ export const Wrapper = styled.div<TMenuLeft>`
         animation: ${(props) =>
           props.active
             ? css`
-                ${AnimatedMenuOut} 2s
+                ${AnimatedMenuOut} 1.5s
               `
             : css`
-                ${AnimatedMenuIn} 2s
+                ${AnimatedMenuIn} 1.5s
               `};
         cursor: pointer;
       }
