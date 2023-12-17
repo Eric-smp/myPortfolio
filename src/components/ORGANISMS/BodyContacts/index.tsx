@@ -3,7 +3,7 @@ import * as Styles from "./styles";
 export function BodyContacts() {
   return (
     <Styles.Wrapper>
-      <h1>Fale comigo</h1>
+      <h1>Contate me</h1>
     </Styles.Wrapper>
   );
 }
