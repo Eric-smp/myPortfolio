@@ -7,8 +7,16 @@ export function SectionOption() {
 
   return (
     <Styles.Content>
-      <Button label="Portifolio" onClick={() => router.push("/init")} />
-      <Button label="Projetos" onClick={() => router.push("/developers")} />
+      <Button
+        label="Portifolio"
+        onClick={() => router.push("/init")}
+        insertIcon={false}
+      />
+      <Button
+        label="Projetos"
+        onClick={() => router.push("/developers")}
+        insertIcon={false}
+      />
     </Styles.Content>
   );
 }
