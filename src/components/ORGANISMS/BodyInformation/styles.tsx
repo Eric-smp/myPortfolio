@@ -11,8 +11,10 @@ export const Wrapper = styled.div`
   gap: 3rem;
   .footer {
     display: flex;
+    flex-direction: row;
     gap: 1rem;
     svg {
+      position: relative;
       cursor: pointer;
     }
   }
