@@ -3,11 +3,11 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 100%;
   height: auto;
-  padding: 1rem;
+  padding: 1rem 1rem 0rem 1rem;
 
   .projetct {
     width: 100%;
-    height: 35rem;
+    height: 30rem;
     display: flex;
     align-items: center;
     justify-content: center;
