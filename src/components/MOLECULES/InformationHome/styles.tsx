@@ -1,6 +1,8 @@
 import styled from "styled-components";
 
 export const Content = styled.div`
+  @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
+
   width: 100%;
   height: auto;
   display: flex;
@@ -21,6 +23,10 @@ export const Content = styled.div`
     .header {
       h1 {
         font-family: "Kalam", cursive;
+        font-size: 2.5rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 3.5rem;
         background: var(
           --brand-gradient-horizontal,
           linear-gradient(90deg, #9955e8 0%, #7bffaf 100%)
@@ -34,7 +40,12 @@ export const Content = styled.div`
       width: 100%;
       display: flex;
       p {
-        color: #ffffff;
+        color: #cdd0d4;
+        font-family: Heebo;
+        font-size: 1rem;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 1.5rem;
       }
     }
 

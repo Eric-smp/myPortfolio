@@ -10,7 +10,7 @@ export function BodyDevelopers() {
   const router = useRouter();
   return (
     <Styles.Wrapper>
-      <h1>Meus desenvolvimentos</h1>
+      {/* <h1>Meus desenvolvimentos</h1> */}
       <div className="projetct">
         <div className="contenctProject">
           <CardProject
@@ -41,7 +41,7 @@ export function BodyDevelopers() {
             title="College Chat"
             descricao="Um aplicativo de mensagem criado para universidades e escolas, com esse software, os alunos poderão cosultar os professores fora do ambiente escolar, de forma rapida e direta."
             icon={<ImageChat />}
-            urlProject={"../../../pages/404"}
+            urlProject={() => router.push("/error")}
             urlBlock
           />
         </div>

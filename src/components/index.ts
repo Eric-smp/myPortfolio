@@ -17,6 +17,8 @@ export * from './ORGANISMS/BodyAboutMy'
 export * from './ORGANISMS/BodyDevelopers'
 export * from './ORGANISMS/BodyContacts'
 export * from './ORGANISMS/BodyInformation'
+export * from './ORGANISMS/Footer'
+export * from './ORGANISMS/InformationError'
 //TEMPLATE
 export * from './TEMPLATES/FirstPage'
 export * from './TEMPLATES/PageAboutMy'

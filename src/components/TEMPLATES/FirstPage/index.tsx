@@ -1,4 +1,4 @@
-import { Header, HomeBody, MenuLeft } from "@/components";
+import { Header, HomeBody, MenuLeft, Footer } from "@/components";
 
 import * as Styles from "./styles";
 
@@ -8,6 +8,7 @@ export function FirstPage() {
       <MenuLeft />
       <Header />
       <HomeBody />
+      {/* <Footer /> */}
     </Styles.Wrapper>
   );
 }

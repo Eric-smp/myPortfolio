@@ -65,7 +65,7 @@ export const Wrapper = styled.div<TMenuLeft>`
     background-color: #2c243b;
     display: flex;
     flex-direction: column;
-    gap: 3rem;
+    gap: 2.5rem;
     animation: ${(props) =>
       props.active
         ? css`
@@ -122,6 +122,10 @@ export const Wrapper = styled.div<TMenuLeft>`
           color: #e4f3d8;
         }
       }
+    }
+    .diviser {
+      width: 100%;
+      border: 0.0625rem solid #413a4f;
     }
 
     .footer {

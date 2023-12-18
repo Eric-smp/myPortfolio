@@ -84,6 +84,9 @@ export function MenuLeft() {
             <IconArrowRigth />
           </div>
         </div>
+        <div className="diviser">
+          <span></span>
+        </div>
         <div className="footer">
           <IconGitHub
             onClick={() => window.open("https://github.com/Eric-smp", "_blank")}

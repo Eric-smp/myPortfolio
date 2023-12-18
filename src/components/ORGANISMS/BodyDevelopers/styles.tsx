@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 100%;
   height: auto;
-  padding: 1rem 1rem 0rem 1rem;
+  padding: 3.5rem 1rem 0rem 1rem;
 
   .projetct {
     width: 100%;

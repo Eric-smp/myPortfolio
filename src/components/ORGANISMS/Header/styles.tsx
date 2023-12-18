@@ -4,6 +4,7 @@ export const Container = styled.div`
   @import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap");
   @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500;600&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&display=swap");
 
   height: auto;
   width: 100%;
@@ -17,6 +18,10 @@ export const Container = styled.div`
   box-shadow: 0px 15px 16px 0px rgba(0, 0, 0, 0.25);
   .titleHeader {
     h1 {
+      font-size: 2rem;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 3.5rem;
       font-family: "Kalam", cursive;
       background: var(
         --brand-gradient-horizontal,
