@@ -1,13 +1,14 @@
 import { BodyInformation } from "@/components";
 import Image from "next/image";
 import ImageFundo from "@/assets/png/bg-desktop.png";
-
+import IconProject from "@/assets/svg/iconProjetct.svg";
 import * as Styles from "./styles";
 
 export function PageInformation() {
   return (
     <Styles.Wrapper>
       <div className="content">
+        <IconProject />
         <BodyInformation />
       </div>
       <Image
@@ -16,7 +17,7 @@ export function PageInformation() {
         // placeholder="blur"
         quality={100}
         fill
-        sizes="100vh"
+        sizes="100%"
         style={{
           objectFit: "cover",
           width: "100%",

@@ -32,6 +32,12 @@ export function BodyDevelopers() {
             urlProject={"https://github.com/Eric-smp/Secret-Word"}
           />
           <CardProject
+            title="Portfolio"
+            descricao="O portfolio foi uma das maneiras que eu utilizei para me apresentar, mostrar todos os meus projetos e também as minhas habilidades no mundo da programação."
+            icon={<ImgGame />}
+            urlProject={"https://github.com/Eric-smp/myPortfolio"}
+          />
+          <CardProject
             title="College Chat"
             descricao="Um aplicativo de mensagem criado para universidades e escolas, com esse software, os alunos poderão cosultar os professores fora do ambiente escolar, de forma rapida e direta."
             icon={<ImageChat />}

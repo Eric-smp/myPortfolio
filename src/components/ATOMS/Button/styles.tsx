@@ -9,6 +9,12 @@ export const Content = styled.button<TButton>`
   background: rgba(255, 255, 255, 0.1);
   backdrop-filter: blur(4px);
   cursor: pointer;
+  background-color: ${({ backColor }) => backColor};
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: ${({ insertIcon }) => (insertIcon ? "2rem" : "none")};
 
   h2 {
     color: #fff;
@@ -18,5 +24,11 @@ export const Content = styled.button<TButton>`
     font-style: normal;
     font-weight: 500;
     line-height: 1.5rem;
+  }
+
+  span {
+    height: 100%;
+    display: flex;
+    align-items: center;
   }
 `;

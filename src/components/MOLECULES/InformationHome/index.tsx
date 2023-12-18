@@ -20,7 +20,11 @@ export function InformationHome() {
           </p>
         </div>
         <div className="footer">
-          <Button label={"Sobre mim"} onClick={() => router.push("/aboutMy")} />
+          <Button
+            label={"Sobre mim"}
+            onClick={() => router.push("/aboutMy")}
+            insertIcon={false}
+          />
         </div>
       </div>
       <div className="imgContent">

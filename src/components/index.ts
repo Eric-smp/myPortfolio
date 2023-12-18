@@ -2,11 +2,14 @@
 export * from './ATOMS/CardProject'
 export * from './ATOMS/PerfilUser'
 export * from './ATOMS/Button'
+export * from './ATOMS/InputElement'
 //MOLECULES
 export * from './MOLECULES/NavBarHeader'
 export * from './MOLECULES/MenuLeft'
 export * from './MOLECULES/SectionOption'
 export * from './MOLECULES/InformationHome'
+export * from './MOLECULES/TextContact'
+export * from './MOLECULES/FormContact'
 //ORGANISMS
 export * from './ORGANISMS/Header'
 export * from './ORGANISMS/HomeBody'

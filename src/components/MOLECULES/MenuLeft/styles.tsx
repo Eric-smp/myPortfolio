@@ -36,9 +36,9 @@ const AnimatedMenuOut = keyframes`
   }
 `;
 export const Wrapper = styled.div<TMenuLeft>`
-  height: 100vh;
+  height: 100vh !important;
   width: 100%;
-  position: absolute;
+  position: fixed;
   z-index: 50;
   display: ${({ visibleMenuLeft }) => (visibleMenuLeft ? "flex" : "none")};
   background: #171023;
@@ -53,10 +53,15 @@ export const Wrapper = styled.div<TMenuLeft>`
           ${AnimatedMenuIn} 0.15s
         `};
 
+  .iconProject {
+    position: absolute;
+    left: 1rem;
+  }
+
   .contentMenuLeft {
     padding: 5rem 1rem;
     width: 75%;
-    height: 100%;
+    height: 100vh;
     background-color: #2c243b;
     display: flex;
     flex-direction: column;
@@ -107,10 +112,10 @@ export const Wrapper = styled.div<TMenuLeft>`
         animation: ${(props) =>
           props.active
             ? css`
-                ${AnimatedMenuOut} 1s
+                ${AnimatedMenuOut} 1.5s
               `
             : css`
-                ${AnimatedMenuIn} 1s
+                ${AnimatedMenuIn} 1.5s
               `};
 
         h3 {
@@ -127,10 +132,10 @@ export const Wrapper = styled.div<TMenuLeft>`
         animation: ${(props) =>
           props.active
             ? css`
-                ${AnimatedMenuOut} 1.5s
+                ${AnimatedMenuOut} 2s
               `
             : css`
-                ${AnimatedMenuIn} 1.5s
+                ${AnimatedMenuIn} 2s
               `};
         cursor: pointer;
       }
