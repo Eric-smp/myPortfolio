@@ -5,6 +5,11 @@ export default function Document() {
     <Html lang="pt-br">
       <Head>
         <meta charSet="utf-8" />
+        <link
+          rel="shortcut icon"
+          type="imagex/png"
+          href="../assets/png/faviacon.png"
+        ></link>
       </Head>
       <Main />
       <NextScript />

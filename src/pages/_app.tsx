@@ -10,8 +10,10 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Portifolio</title>
-        <meta />
+        <title>Eric Sampaio</title>
+        <meta name="author" content="Portifolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" href="/faviacon.ico" sizes="any" />
       </Head>
       <I18nextProvider i18n={i18next}>
         <ThemeProvider theme={Themes}>
