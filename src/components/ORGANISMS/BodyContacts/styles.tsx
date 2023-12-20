@@ -7,19 +7,20 @@ export const Wrapper = styled.div`
   .Content {
     width: 100%;
     height: auto;
-    padding: 3rem 1.5rem;
+    padding: 3rem 2rem;
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 2rem;
     border-radius: 1rem;
-    background-color: #2c243b;
     justify-content: space-between;
+    background-color: #2c243b;
 
     .textBody {
       width: 100%;
     }
-
     .formContent {
+      width: 100%;
+      /* margin: 1rem; */
       display: flex;
       flex-direction: column;
       gap: 2rem;
@@ -29,18 +30,22 @@ export const Wrapper = styled.div`
   @media only screen and (min-width: 768px) {
     width: 100%;
     height: auto;
+    padding: 2rem 0.5rem;
     .Content {
       display: flex;
       flex-direction: row;
-      justify-content: space-evenly;
+      padding: 3rem 1rem;
+      justify-content: space-around;
 
       .textBody {
         width: 30rem;
       }
 
       .formContent {
-        width: 30.5rem;
+        width: 25rem;
+
         display: flex;
+        flex-wrap: wrap;
       }
     }
   }

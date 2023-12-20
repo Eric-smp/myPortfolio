@@ -2,7 +2,7 @@
 export * from './ATOMS/CardProject'
 export * from './ATOMS/PerfilUser'
 export * from './ATOMS/Button'
-export * from './ATOMS/InputElement'
+export * from './ATOMS/ButtonContacts'
 export * from './ATOMS/AbilityCard'
 //MOLECULES
 export * from './MOLECULES/NavBarHeader'

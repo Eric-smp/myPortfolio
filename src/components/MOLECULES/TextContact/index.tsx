@@ -29,27 +29,6 @@ export function TextContact() {
           mensagem em uma das minhas redes
         </p>
       </div>
-      <div className="iconRedes">
-        <span>
-          <IconGithub
-            onClick={() => window.open("https://github.com/Eric-smp", "_blank")}
-          />
-        </span>
-        <span>
-          <IconLinkedin
-            onClick={() =>
-              window.open("https://www.linkedin.com/in/eric-smp/", "_blank")
-            }
-          />
-        </span>
-        <span>
-          <IconInstagram
-            onClick={() =>
-              window.open("https://www.instagram.com/eric__sampaio/", "_blank")
-            }
-          />
-        </span>
-      </div>
     </Styles.Content>
   );
 }

@@ -4,9 +4,8 @@ export const Content = styled.div`
   width: 100%;
   height: 100%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
   gap: 2rem;
-  button {
-    width: 15rem;
-  }
 `;

@@ -4,9 +4,11 @@ import IconArrowRigth from "@/assets/svg/arrowRigth.svg";
 import IconGitHub from "@/assets/svg/logo-github 1.svg";
 import IconLinkedin from "@/assets/svg/logo-linkedin 1.svg";
 import IconInstagram from "@/assets/svg/logo-instagram 1.svg";
+import IconGmail from "@/assets/svg/iconeGmailMenu.svg";
 import IconProject from "@/assets/svg/iconProjetct.svg";
 import Divider from "@mui/material/Divider";
-import { GitHub } from "@mui/icons-material";
+import { GitHub, LinkedIn } from "@mui/icons-material";
+import {} from "@mui/material/colors";
 import * as Styles from "./styles";
 import { useRouter } from "next/router";
 
@@ -91,8 +93,8 @@ export function MenuLeft() {
           <span></span>
         </div>
         <div className="footer">
-          <GitHub
-            color="disabled"
+          <IconGitHub
+            // color=""
             onClick={() => window.open("https://github.com/Eric-smp", "_blank")}
           />
 
@@ -104,6 +106,11 @@ export function MenuLeft() {
           <IconInstagram
             onClick={() =>
               window.open("https://www.instagram.com/eric__sampaio/", "_blank")
+            }
+          />
+          <IconGmail
+            onClick={() =>
+              window.open("mailto:e.sousa5980@gmail.com", "_blank")
             }
           />
         </div>
