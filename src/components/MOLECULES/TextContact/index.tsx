@@ -1,8 +1,5 @@
 import Image from "next/image";
 import ImagePerfil from "@/assets/png/foto perfil.jpeg";
-import IconGithub from "@/assets/svg/logo-github 1.svg";
-import IconLinkedin from "@/assets/svg/logo-linkedin 1.svg";
-import IconInstagram from "@/assets/svg/logo-instagram 1.svg";
 import * as Styles from "./styles";
 
 export function TextContact() {
@@ -11,9 +8,7 @@ export function TextContact() {
       <Image
         alt="Image Fundo"
         src={ImagePerfil}
-        // placeholder="blur"
         quality={100}
-        // fill
         sizes="100px"
         style={{
           objectFit: "cover",

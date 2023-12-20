@@ -42,7 +42,7 @@ export const Wrapper = styled.div`
       }
 
       .formContent {
-        width: 25rem;
+        width: 50rem;
 
         display: flex;
         flex-wrap: wrap;

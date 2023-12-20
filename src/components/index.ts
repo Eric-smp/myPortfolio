@@ -12,6 +12,7 @@ export * from './MOLECULES/InformationHome'
 export * from './MOLECULES/TextContact'
 export * from './MOLECULES/FormContact'
 export * from './MOLECULES/AbilityDev'
+export * from './MOLECULES/DescriptionDev'
 //ORGANISMS
 export * from './ORGANISMS/Header'
 export * from './ORGANISMS/HomeBody'

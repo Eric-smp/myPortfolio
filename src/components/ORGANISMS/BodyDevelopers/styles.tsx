@@ -3,6 +3,8 @@ import styled from "styled-components";
 export const Wrapper = styled.div`
   width: 100%;
   height: auto;
+  display: flex;
+  flex-direction: row;
   padding: 3.5rem 1rem 0rem 1rem;
 
   .projetct {
@@ -36,12 +38,16 @@ export const Wrapper = styled.div`
     }
   }
   @media only screen and (max-width: 1024px) {
-    width: 100vw;
-    height: 100%;
+    width: 100%;
+    height: 100vh;
+    gap: 1rem;
+    padding: 1rem 1rem 2rem 1rem;
+    display: flex;
+    flex-direction: column;
 
     .projetct {
       width: 100%;
-      height: 35rem;
+      height: 25rem;
       display: flex;
       align-items: center;
       justify-content: center;

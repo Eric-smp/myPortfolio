@@ -1,5 +1,4 @@
 import { ButtonContacts, Button } from "@/components";
-import ArrowRigth from "@/assets/svg/arrowRigth.svg";
 import IconGitHub from "@/assets/svg/iconGitHub.svg";
 import IconGmail from "@/assets/svg/iconGmail.svg";
 import IconLinkedin from "@/assets/svg/iconLinkedin.svg";

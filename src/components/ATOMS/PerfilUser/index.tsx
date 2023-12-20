@@ -9,9 +9,7 @@ export function PerfilUser() {
         <Image
           alt="Image Fundo"
           src={ImagePerfil}
-          // placeholder="blur"
           quality={100}
-          // fill
           sizes="100px"
           style={{
             objectFit: "cover",

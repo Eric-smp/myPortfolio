@@ -14,7 +14,6 @@ export function PageInformation() {
       <Image
         alt="Image Fundo"
         src={ImageFundo}
-        // placeholder="blur"
         quality={100}
         fill
         sizes="100%"

@@ -9,12 +9,10 @@ export function Header() {
   const { visibleMenuLeft, setVisibleMenuLeft } = useGlobal();
   const router = useRouter();
 
-  console.log("amdpoas", setVisibleMenuLeft);
-
   return (
     <Styles.Container>
       <div className="iconOpenMenuMobile">
-        <IconMobileMenu onClick={() => console.log(setVisibleMenuLeft(true))} />
+        <IconMobileMenu onClick={() => setVisibleMenuLeft(true)} />
       </div>
       <div className="iconPortifolio">
         <IconPortfolio />

@@ -1,4 +1,4 @@
-import { CardProject } from "@/components";
+import { CardProject, DescriptionDev } from "@/components";
 import ImgCalculator from "@/assets/svg/iconCalculadora.svg";
 import ImgGame from "@/assets/svg/iconGame.svg";
 import ImgPokeApi from "@/assets/svg/iconSitePokeApi.svg";
@@ -10,7 +10,7 @@ export function BodyDevelopers() {
   const router = useRouter();
   return (
     <Styles.Wrapper>
-      {/* <h1>Meus desenvolvimentos</h1> */}
+      <DescriptionDev />
       <div className="projetct">
         <div className="contenctProject">
           <CardProject

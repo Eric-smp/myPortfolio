@@ -20,7 +20,13 @@ export const Wrapper = styled.div`
     background-color: #2c243b;
     gap: 1rem;
     h1 {
-      color: #fff;
+      background: var(
+        --brand-gradient-horizontal,
+        linear-gradient(90deg, #9955e8 0%, #7bffaf 100%)
+      );
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
     }
     p {
       font-size: 1rem;
@@ -28,7 +34,13 @@ export const Wrapper = styled.div`
     }
   }
   h1 {
-    color: #fff;
+    background: var(
+      --brand-gradient-horizontal,
+      linear-gradient(90deg, #9955e8 0%, #7bffaf 100%)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   @media only screen and (min-width: 1024px) {

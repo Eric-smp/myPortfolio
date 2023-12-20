@@ -1,5 +1,4 @@
 import { AbilityCard } from "@/components";
-import { SiJavascript } from "react-icons/si";
 import IconJavaScript from "@/assets/svg/iconJavaScript.svg";
 import IconHtml from "@/assets/svg/iconHTML.svg";
 import IconCSS from "@/assets/svg/iconCSS.svg";

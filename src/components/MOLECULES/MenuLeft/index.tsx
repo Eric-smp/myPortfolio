@@ -6,9 +6,6 @@ import IconLinkedin from "@/assets/svg/logo-linkedin 1.svg";
 import IconInstagram from "@/assets/svg/logo-instagram 1.svg";
 import IconGmail from "@/assets/svg/iconeGmailMenu.svg";
 import IconProject from "@/assets/svg/iconProjetct.svg";
-import Divider from "@mui/material/Divider";
-import { GitHub, LinkedIn } from "@mui/icons-material";
-import {} from "@mui/material/colors";
 import * as Styles from "./styles";
 import { useRouter } from "next/router";
 
@@ -23,12 +20,9 @@ export function MenuLeft() {
 
   return (
     <Styles.Wrapper visibleMenuLeft={visibleMenuLeft} active={isSideBarVisible}>
-      <div className="iconProject">
-        <IconProject />
-      </div>
       <div className="contentMenuLeft">
         <div className="header">
-          <h2>Eric Sampaio</h2>
+          <IconProject />
           <IconClose
             onClick={() => {
               setVisibleMenuLeft(false);
@@ -94,7 +88,6 @@ export function MenuLeft() {
         </div>
         <div className="footer">
           <IconGitHub
-            // color=""
             onClick={() => window.open("https://github.com/Eric-smp", "_blank")}
           />
 

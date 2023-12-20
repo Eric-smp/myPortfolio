@@ -1,4 +1,3 @@
-import { Button } from "../Button";
 import { TContacts } from "@/types";
 import * as Styles from "./styles";
 

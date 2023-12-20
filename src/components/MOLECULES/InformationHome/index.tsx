@@ -31,9 +31,7 @@ export function InformationHome() {
         <Image
           alt="Image Fundo"
           src={ImageHome}
-          // placeholder="blur"
           quality={100}
-          // fill
           sizes="600px"
           style={{
             objectFit: "cover",

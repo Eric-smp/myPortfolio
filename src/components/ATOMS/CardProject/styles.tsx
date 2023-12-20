@@ -3,6 +3,8 @@ import { TCard } from "@/types";
 
 export const Content = styled.div<TCard>`
   @import url("https://fonts.googleapis.com/css2?family=Kalnia:wght@300;400;700&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax&display=swap");
+  @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@500&display=swap");
 
   max-width: 30rem;
   height: 100%;
@@ -40,7 +42,13 @@ export const Content = styled.div<TCard>`
       gap: 1rem;
 
       h1 {
-        color: #e4f3d8;
+        background: var(
+          --brand-gradient-horizontal,
+          linear-gradient(90deg, #9955e8 0%, #7bffaf 100%)
+        );
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
       }
       p {
         color: #e4f3d8;
@@ -49,8 +57,9 @@ export const Content = styled.div<TCard>`
         font-size: 1.5rem;
         text-decoration: none;
         color: #8a42db;
-        font-family: "Kalnia", serif;
+        font-family: "Inconsolata", monospace;
         font-weight: 700;
+        font-style: normal;
         cursor: ${({ urlBlock }) => (urlBlock ? "not-allowed" : "pointer")};
       }
     }
