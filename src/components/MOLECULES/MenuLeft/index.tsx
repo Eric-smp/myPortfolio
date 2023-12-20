@@ -5,6 +5,8 @@ import IconGitHub from "@/assets/svg/logo-github 1.svg";
 import IconLinkedin from "@/assets/svg/logo-linkedin 1.svg";
 import IconInstagram from "@/assets/svg/logo-instagram 1.svg";
 import IconProject from "@/assets/svg/iconProjetct.svg";
+import Divider from "@mui/material/Divider";
+import { GitHub } from "@mui/icons-material";
 import * as Styles from "./styles";
 import { useRouter } from "next/router";
 
@@ -84,11 +86,13 @@ export function MenuLeft() {
             <IconArrowRigth />
           </div>
         </div>
+        {/* <Divider /> */}
         <div className="diviser">
           <span></span>
         </div>
         <div className="footer">
-          <IconGitHub
+          <GitHub
+            color="disabled"
             onClick={() => window.open("https://github.com/Eric-smp", "_blank")}
           />
 

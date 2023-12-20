@@ -41,7 +41,6 @@ export const Content = styled.div`
       display: flex;
       p {
         color: #cdd0d4;
-        font-family: Heebo;
         font-size: 1rem;
         font-style: normal;
         font-weight: 400;
