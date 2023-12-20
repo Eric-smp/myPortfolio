@@ -10,9 +10,7 @@ export default function App({ Component, pageProps }: AppProps) {
   return (
     <>
       <Head>
-        <title>Eric Sampaio</title>
-        <meta name="author" content="Portifolio" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Portfólio | Eric Sampaio - Developer Front-end</title>
         <link rel="icon" href="/faviacon.ico" sizes="any" />
       </Head>
       <I18nextProvider i18n={i18next}>
