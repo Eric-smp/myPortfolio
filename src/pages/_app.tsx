@@ -5,6 +5,7 @@ import i18next from "i18next";
 import { ThemeProvider } from "styled-components";
 import { Themes } from "@/styles/themeStyles";
 import { GlobalStyles } from "@/styles/globals";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import Head from "next/head";
 export default function App({ Component, pageProps }: AppProps) {
   return (
@@ -18,6 +19,7 @@ export default function App({ Component, pageProps }: AppProps) {
           <GlobalProvider>
             <GlobalStyles />
             <Component {...pageProps} />
+            <SpeedInsights />
           </GlobalProvider>
         </ThemeProvider>
       </I18nextProvider>

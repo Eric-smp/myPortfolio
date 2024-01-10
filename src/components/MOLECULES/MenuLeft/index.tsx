@@ -38,7 +38,7 @@ export function MenuLeft() {
               setVisibleMenuLeft(false);
             }}
           >
-            <h3>Inicio</h3>
+            <h3>Início</h3>
             <IconArrowRigth />
           </div>
           <div

@@ -8,7 +8,7 @@ export function SectionOption() {
   return (
     <Styles.Content>
       <Button
-        label="Portifolio"
+        label="portfólio"
         onClick={() => router.push("/init")}
         insertIcon={false}
       />

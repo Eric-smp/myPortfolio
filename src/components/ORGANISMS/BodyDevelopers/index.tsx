@@ -32,8 +32,8 @@ export function BodyDevelopers() {
             urlProject={"https://github.com/Eric-smp/Secret-Word"}
           />
           <CardProject
-            title="Portfolio"
-            descricao="O portfolio foi uma das maneiras que eu utilizei para me apresentar, mostrar todos os meus projetos e também as minhas habilidades no mundo da programação."
+            title="portfólio"
+            descricao="O portfólio foi uma das maneiras que eu utilizei para me apresentar, mostrar todos os meus projetos e também as minhas habilidades no mundo da programação."
             icon={<ImgGame />}
             urlProject={"https://github.com/Eric-smp/myPortfolio"}
           />
