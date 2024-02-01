@@ -6,6 +6,7 @@ import IconReact from "@/assets/svg/iconReact.svg";
 import IconNext from "@/assets/svg/iconNextJS.svg";
 import IconStyledComponents from "@/assets/svg/iconStyle-components.svg";
 import IconTypeScript from "@/assets/svg/iconTypeScript.svg";
+import IconCypress from "@/assets/svg/cypress.svg";
 
 import * as Styles from "./styles";
 
@@ -19,6 +20,7 @@ export function AbilityDev() {
       <AbilityCard icon={<IconReact />} language="React" />
       <AbilityCard icon={<IconNext />} language="NextJS" />
       <AbilityCard icon={<IconStyledComponents />} language="css-in-js" />
+      <AbilityCard icon={<IconCypress />} language="Cypress" />
     </Styles.Content>
   );
 }

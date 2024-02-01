@@ -5,7 +5,7 @@ export function AbilityCard({ icon, language }: TAbilit) {
   return (
     <Styles.Card>
       <div className="Content">
-        <h3>JavaScript</h3>
+        <h3>{language}</h3>
         <span>{icon}</span>
       </div>
     </Styles.Card>
